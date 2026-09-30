@@ -1,0 +1,461 @@
+[
+  {
+    "code": "SKILL_JAVA",
+    "canonical_name": "Java",
+    "category": "LANGUAGES",
+    "subcategory": "OBJECT_ORIENTED",
+    "description": "High-level, class-based, object-oriented programming language designed for platform independence.",
+    "aliases": ["java", "джава", "core java", "java se", "java ee", "jakarta ee", "java core"],
+    "related_skills": ["SKILL_SPRING_BOOT", "SKILL_KOTLIN", "SKILL_JVM"]
+  },
+  {
+    "code": "SKILL_PYTHON",
+    "canonical_name": "Python",
+    "category": "LANGUAGES",
+    "subcategory": "MULTI_PARADIGM",
+    "description": "High-level, interpreted, general-purpose programming language emphasizing code readability.",
+    "aliases": ["python", "питон", "python3", "python 3", "cpython", "py"],
+    "related_skills": ["SKILL_DJANGO", "SKILL_FASTAPI", "SKILL_PYTORCH", "SKILL_PANDAS"]
+  },
+  {
+    "code": "SKILL_GOLANG",
+    "canonical_name": "Go",
+    "category": "LANGUAGES",
+    "subcategory": "COMPILED",
+    "description": "Statically typed, compiled programming language designed at Google for high concurrency and networked services.",
+    "aliases": ["go", "golang", "го", "голанг", "go lang"],
+    "related_skills": ["SKILL_KUBERNETES", "SKILL_DOCKER", "SKILL_GRPC"]
+  },
+  {
+    "code": "SKILL_CPP",
+    "canonical_name": "C++",
+    "category": "LANGUAGES",
+    "subcategory": "SYSTEMS",
+    "description": "Cross-platform language created as an extension of C with object-oriented and generic features.",
+    "aliases": ["c++", "cpp", "си плюс плюс", "с++", "c/c++"],
+    "related_skills": ["SKILL_C", "SKILL_RUST"]
+  },
+  {
+    "code": "SKILL_CSHARP",
+    "canonical_name": "C#",
+    "category": "LANGUAGES",
+    "subcategory": "OBJECT_ORIENTED",
+    "description": "Modern, object-oriented, and type-safe programming language developed by Microsoft for the .NET platform.",
+    "aliases": ["c#", "csharp", "c-sharp", "си шарп", "с#"],
+    "related_skills": ["SKILL_DOTNET", "SKILL_ASPNET_CORE"]
+  },
+  {
+    "code": "SKILL_TYPESCRIPT",
+    "canonical_name": "TypeScript",
+    "category": "LANGUAGES",
+    "subcategory": "TYPED_JAVASCRIPT",
+    "description": "Strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+    "aliases": ["typescript", "ts", "тайпскрипт"],
+    "related_skills": ["SKILL_JAVASCRIPT", "SKILL_NODEJS", "SKILL_REACT", "SKILL_ANGULAR"]
+  },
+  {
+    "code": "SKILL_JAVASCRIPT",
+    "canonical_name": "JavaScript",
+    "category": "LANGUAGES",
+    "subcategory": "SCRIPTING",
+    "description": "High-level, often just-in-time compiled language that conforms to the ECMAScript specification.",
+    "aliases": ["javascript", "js", "джаваскрипт", "es6", "es2020", "esnext", "ecmascript"],
+    "related_skills": ["SKILL_TYPESCRIPT", "SKILL_NODEJS", "SKILL_REACT"]
+  },
+  {
+    "code": "SKILL_KOTLIN",
+    "canonical_name": "Kotlin",
+    "category": "LANGUAGES",
+    "subcategory": "JVM",
+    "description": "Cross-platform, statically typed, general-purpose high-level programming language with type inference.",
+    "aliases": ["kotlin", "котлин"],
+    "related_skills": ["SKILL_JAVA", "SKILL_ANDROID", "SKILL_SPRING_BOOT"]
+  },
+  {
+    "code": "SKILL_SCALA",
+    "canonical_name": "Scala",
+    "category": "LANGUAGES",
+    "subcategory": "FUNCTIONAL",
+    "description": "Strong static type system that combines functional and object-oriented programming on the JVM.",
+    "aliases": ["scala", "скала"],
+    "related_skills": ["SKILL_APACHE_SPARK", "SKILL_JAVA", "SKILL_AKKA"]
+  },
+  {
+    "code": "SKILL_RUST",
+    "canonical_name": "Rust",
+    "category": "LANGUAGES",
+    "subcategory": "SYSTEMS",
+    "description": "Multi-paradigm, general-purpose programming language emphasizing performance, type safety, and memory safety.",
+    "aliases": ["rust", "раст", "rustlang"],
+    "related_skills": ["SKILL_CPP", "SKILL_WEBASSEMBLY"]
+  },
+  {
+    "code": "SKILL_PHP",
+    "canonical_name": "PHP",
+    "category": "LANGUAGES",
+    "subcategory": "SCRIPTING",
+    "description": "General-purpose scripting language geared towards web development.",
+    "aliases": ["php", "пхп", "php8", "php7"],
+    "related_skills": ["SKILL_LARAVEL", "SKILL_SYMFONY"]
+  },
+  {
+    "code": "SKILL_SQL",
+    "canonical_name": "SQL",
+    "category": "LANGUAGES",
+    "subcategory": "QUERY_LANGUAGE",
+    "description": "Domain-specific language used in programming and designed for managing data held in relational DBMS.",
+    "aliases": ["sql", "скл", "ansi sql"],
+    "related_skills": ["SKILL_POSTGRESQL", "SKILL_MYSQL", "SKILL_TRINO"]
+  },
+  {
+    "code": "SKILL_SPRING_BOOT",
+    "canonical_name": "Spring Boot",
+    "category": "BACKEND_FRAMEWORKS",
+    "subcategory": "JAVA",
+    "description": "Convention-over-configuration extension for the Spring framework aimed at creating stand-alone applications.",
+    "aliases": ["spring boot", "springboot", "спринг бут", "spring-boot", "spring framework", "spring"],
+    "related_skills": ["SKILL_JAVA", "SKILL_SPRING_SECURITY", "SKILL_SPRING_DATA"]
+  },
+  {
+    "code": "SKILL_DJANGO",
+    "canonical_name": "Django",
+    "category": "BACKEND_FRAMEWORKS",
+    "subcategory": "PYTHON",
+    "description": "Free and open-source, Python-based web framework that follows the model-template-views architectural pattern.",
+    "aliases": ["django", "джанго", "django rest framework", "drf"],
+    "related_skills": ["SKILL_PYTHON", "SKILL_POSTGRESQL"]
+  },
+  {
+    "code": "SKILL_FASTAPI",
+    "canonical_name": "FastAPI",
+    "category": "BACKEND_FRAMEWORKS",
+    "subcategory": "PYTHON",
+    "description": "Modern, fast (high-performance) web framework for building APIs with Python 3.8+ based on standard Python type hints.",
+    "aliases": ["fastapi", "fast api", "фастапи"],
+    "related_skills": ["SKILL_PYTHON", "SKILL_PYDANTIC", "SKILL_UVICORN"]
+  },
+  {
+    "code": "SKILL_NODEJS",
+    "canonical_name": "Node.js",
+    "category": "BACKEND_FRAMEWORKS",
+    "subcategory": "JAVASCRIPT",
+    "description": "Open-source, cross-platform JavaScript runtime environment executing JavaScript code outside a web browser.",
+    "aliases": ["node.js", "nodejs", "node", "нода", "ноде.джс"],
+    "related_skills": ["SKILL_EXPRESS", "SKILL_NESTJS", "SKILL_TYPESCRIPT"]
+  },
+  {
+    "code": "SKILL_NESTJS",
+    "canonical_name": "NestJS",
+    "category": "BACKEND_FRAMEWORKS",
+    "subcategory": "TYPESCRIPT",
+    "description": "Progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
+    "aliases": ["nestjs", "nest.js", "nest js", "нест джс"],
+    "related_skills": ["SKILL_NODEJS", "SKILL_TYPESCRIPT"]
+  },
+  {
+    "code": "SKILL_DOTNET",
+    "canonical_name": ".NET",
+    "category": "BACKEND_FRAMEWORKS",
+    "subcategory": "DOTNET",
+    "description": "Free, open-source, managed computer software framework for Windows, Linux, and macOS.",
+    "aliases": [".net", ".net core", "dotnet", "dotnet core", "дотнет"],
+    "related_skills": ["SKILL_CSHARP", "SKILL_ASPNET_CORE"]
+  },
+  {
+    "code": "SKILL_ASPNET_CORE",
+    "canonical_name": "ASP.NET Core",
+    "category": "BACKEND_FRAMEWORKS",
+    "subcategory": "DOTNET",
+    "description": "Cross-platform, high-performance, open-source framework for building modern, cloud-enabled web applications.",
+    "aliases": ["asp.net", "asp.net core", "aspnet", "aspnetcore"],
+    "related_skills": ["SKILL_DOTNET", "SKILL_CSHARP"]
+  },
+  {
+    "code": "SKILL_REACT",
+    "canonical_name": "React",
+    "category": "FRONTEND_FRAMEWORKS",
+    "subcategory": "SPA",
+    "description": "Free and open-source front-end JavaScript library for building user interfaces based on components.",
+    "aliases": ["react", "react.js", "reactjs", "реакт"],
+    "related_skills": ["SKILL_REDUX", "SKILL_NEXTJS", "SKILL_TYPESCRIPT"]
+  },
+  {
+    "code": "SKILL_REDUX",
+    "canonical_name": "Redux",
+    "category": "FRONTEND_FRAMEWORKS",
+    "subcategory": "STATE_MANAGEMENT",
+    "description": "Predictable state container for JavaScript apps.",
+    "aliases": ["redux", "redux toolkit", "rtk", "редакс"],
+    "related_skills": ["SKILL_REACT"]
+  },
+  {
+    "code": "SKILL_ANGULAR",
+    "canonical_name": "Angular",
+    "category": "FRONTEND_FRAMEWORKS",
+    "subcategory": "SPA",
+    "description": "TypeScript-based, free and open-source single-page web application framework led by Google.",
+    "aliases": ["angular", "angularjs", "ангуляр", "angular 2+"],
+    "related_skills": ["SKILL_TYPESCRIPT", "SKILL_RXJS"]
+  },
+  {
+    "code": "SKILL_VUEJS",
+    "canonical_name": "Vue.js",
+    "category": "FRONTEND_FRAMEWORKS",
+    "subcategory": "SPA",
+    "description": "Model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications.",
+    "aliases": ["vue.js", "vue", "vuejs", "vue 3", "vue2", "вью"],
+    "related_skills": ["SKILL_VUEX", "SKILL_PINIA", "SKILL_NUXTJS"]
+  },
+  {
+    "code": "SKILL_NEXTJS",
+    "canonical_name": "Next.js",
+    "category": "FRONTEND_FRAMEWORKS",
+    "subcategory": "SSR",
+    "description": "Open-source web development framework providing React-based web applications with server-side rendering.",
+    "aliases": ["next.js", "nextjs", "next js", "некст"],
+    "related_skills": ["SKILL_REACT", "SKILL_TYPESCRIPT"]
+  },
+  {
+    "code": "SKILL_POSTGRESQL",
+    "canonical_name": "PostgreSQL",
+    "category": "DATABASE",
+    "subcategory": "RELATIONAL",
+    "description": "Free and open-source relational database management system emphasizing extensibility and SQL compliance.",
+    "aliases": ["postgres", "postgresql", "psql", "pgsql", "постгрес", "постгрескл"],
+    "related_skills": ["SKILL_SQL", "SKILL_DATABASE_TUNING"]
+  },
+  {
+    "code": "SKILL_MYSQL",
+    "canonical_name": "MySQL",
+    "category": "DATABASE",
+    "subcategory": "RELATIONAL",
+    "description": "Open-source relational database management system.",
+    "aliases": ["mysql", "майскт", "майскл"],
+    "related_skills": ["SKILL_SQL", "SKILL_MARIADB"]
+  },
+  {
+    "code": "SKILL_REDIS",
+    "canonical_name": "Redis",
+    "category": "DATABASE",
+    "subcategory": "IN_MEMORY",
+    "description": "In-memory data structure store used as a distributed, in-memory key-value database, cache, and message broker.",
+    "aliases": ["redis", "редис"],
+    "related_skills": ["SKILL_CACHING"]
+  },
+  {
+    "code": "SKILL_MONGODB",
+    "canonical_name": "MongoDB",
+    "category": "DATABASE",
+    "subcategory": "DOCUMENT_NOSQL",
+    "description": "Source-available, cross-platform, document-oriented database program classified as a NoSQL database.",
+    "aliases": ["mongodb", "mongo", "монго", "монгодб"],
+    "related_skills": ["SKILL_NOSQL"]
+  },
+  {
+    "code": "SKILL_CLICKHOUSE",
+    "canonical_name": "ClickHouse",
+    "category": "DATABASE",
+    "subcategory": "COLUMNAR",
+    "description": "High-performance, column-oriented DBMS for online analytical processing (OLAP).",
+    "aliases": ["clickhouse", "кликхаус", "ch"],
+    "related_skills": ["SKILL_SQL", "SKILL_DATA_WAREHOUSE"]
+  },
+  {
+    "code": "SKILL_ELASTICSEARCH",
+    "canonical_name": "Elasticsearch",
+    "category": "DATABASE",
+    "subcategory": "SEARCH_ENGINE",
+    "description": "Distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.",
+    "aliases": ["elasticsearch", "elastic", "эластик", "es", "opensearch"],
+    "related_skills": ["SKILL_KIBANA", "SKILL_LOGSTASH"]
+  },
+  {
+    "code": "SKILL_APACHE_KAFKA",
+    "canonical_name": "Apache Kafka",
+    "category": "DATA_ENGINEERING_AI",
+    "subcategory": "EVENT_STREAMING",
+    "description": "Distributed event store and stream-processing platform for high-throughput, low-latency architectures.",
+    "aliases": ["kafka", "apache kafka", "кафка", "kafka streams", "kafka connect"],
+    "related_skills": ["SKILL_EVENT_DRIVEN_ARCHITECTURE", "SKILL_RABBITMQ"]
+  },
+  {
+    "code": "SKILL_APACHE_SPARK",
+    "canonical_name": "Apache Spark",
+    "category": "DATA_ENGINEERING_AI",
+    "subcategory": "BIG_DATA_PROCESSING",
+    "description": "Multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.",
+    "aliases": ["spark", "apache spark", "спарк", "pyspark", "spark sql", "spark streaming"],
+    "related_skills": ["SKILL_HADOOP", "SKILL_SCALA", "SKILL_PYTHON"]
+  },
+  {
+    "code": "SKILL_APACHE_AIRFLOW",
+    "canonical_name": "Apache Airflow",
+    "category": "DATA_ENGINEERING_AI",
+    "subcategory": "ORCHESTRATION",
+    "description": "Platform created by the community to programmatically author, schedule and monitor workflows.",
+    "aliases": ["airflow", "apache airflow", "эйрфлоу", "эйрфло"],
+    "related_skills": ["SKILL_PYTHON", "SKILL_ETL"]
+  },
+  {
+    "code": "SKILL_TRINO",
+    "canonical_name": "Trino",
+    "category": "DATA_ENGINEERING_AI",
+    "subcategory": "DISTRIBUTED_QUERY_ENGINE",
+    "description": "Fast distributed SQL query engine for big data analytics across multiple heterogeneous data sources.",
+    "aliases": ["trino", "трино", "presto", "prestodb", "prestosql"],
+    "related_skills": ["SKILL_SQL", "SKILL_APACHE_ICEBERG"]
+  },
+  {
+    "code": "SKILL_PYTORCH",
+    "canonical_name": "PyTorch",
+    "category": "DATA_ENGINEERING_AI",
+    "subcategory": "MACHINE_LEARNING",
+    "description": "Optimized tensor library for deep learning using GPUs and CPUs.",
+    "aliases": ["pytorch", "торч", "пайторч"],
+    "related_skills": ["SKILL_PYTHON", "SKILL_MACHINE_LEARNING", "SKILL_TENSORFLOW"]
+  },
+  {
+    "code": "SKILL_PANDAS",
+    "canonical_name": "Pandas",
+    "category": "DATA_ENGINEERING_AI",
+    "subcategory": "DATA_ANALYSIS",
+    "description": "Fast, powerful, flexible and easy to use open source data analysis and manipulation tool.",
+    "aliases": ["pandas", "пандас"],
+    "related_skills": ["SKILL_PYTHON", "SKILL_NUMPY"]
+  },
+  {
+    "code": "SKILL_KUBERNETES",
+    "canonical_name": "Kubernetes",
+    "category": "DEVOPS_CLOUD",
+    "subcategory": "CONTAINER_ORCHESTRATION",
+    "description": "Open-source container orchestration system for automating software deployment, scaling, and management.",
+    "aliases": ["k8s", "kubernetes", "кубернетес", "кубер", "k8s cluster"],
+    "related_skills": ["SKILL_DOCKER", "SKILL_HELM"]
+  },
+  {
+    "code": "SKILL_DOCKER",
+    "canonical_name": "Docker",
+    "category": "DEVOPS_CLOUD",
+    "subcategory": "CONTAINERIZATION",
+    "description": "Set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.",
+    "aliases": ["docker", "докер", "docker-compose", "docker compose"],
+    "related_skills": ["SKILL_KUBERNETES", "SKILL_PODMAN"]
+  },
+  {
+    "code": "SKILL_CICD",
+    "canonical_name": "CI/CD",
+    "category": "DEVOPS_CLOUD",
+    "subcategory": "AUTOMATION",
+    "description": "Combined practice of continuous integration and continuous delivery or continuous deployment.",
+    "aliases": ["ci/cd", "ci-cd", "cicd", "ci / cd", "continuous integration"],
+    "related_skills": ["SKILL_GITLAB_CI", "SKILL_GITHUB_ACTIONS"]
+  },
+  {
+    "code": "SKILL_GITLAB_CI",
+    "canonical_name": "GitLab CI",
+    "category": "DEVOPS_CLOUD",
+    "subcategory": "CI_TOOL",
+    "description": "Tool built into GitLab for software development through continuous methodologies.",
+    "aliases": ["gitlab ci", "gitlab-ci", "гитлаб ci", "gitlab ci/cd"],
+    "related_skills": ["SKILL_CICD", "SKILL_GIT"]
+  },
+  {
+    "code": "SKILL_GITHUB_ACTIONS",
+    "canonical_name": "GitHub Actions",
+    "category": "DEVOPS_CLOUD",
+    "subcategory": "CI_TOOL",
+    "description": "Continuous integration and continuous delivery platform that allows you to automate your build, test, and deployment pipeline.",
+    "aliases": ["github actions", "gha", "gh actions"],
+    "related_skills": ["SKILL_CICD", "SKILL_GIT"]
+  },
+  {
+    "code": "SKILL_TERRAFORM",
+    "canonical_name": "Terraform",
+    "category": "DEVOPS_CLOUD",
+    "subcategory": "IAC",
+    "description": "Infrastructure as code software tool created by HashiCorp.",
+    "aliases": ["terraform", "терраформ", "tf"],
+    "related_skills": ["SKILL_ANSIBLE", "SKILL_AWS"]
+  },
+  {
+    "code": "SKILL_AWS",
+    "canonical_name": "AWS",
+    "category": "DEVOPS_CLOUD",
+    "subcategory": "CLOUD_PROVIDER",
+    "description": "Subsidiary of Amazon providing on-demand cloud computing platforms and APIs.",
+    "aliases": ["aws", "amazon web services", "амазон"],
+    "related_skills": ["SKILL_GCP", "SKILL_AZURE"]
+  },
+  {
+    "code": "SKILL_LINUX",
+    "canonical_name": "Linux",
+    "category": "DEVOPS_CLOUD",
+    "subcategory": "OS",
+    "description": "Family of open-source Unix-like operating systems based on the Linux kernel.",
+    "aliases": ["linux", "линукс", "bash", "shell", "unix"],
+    "related_skills": ["SKILL_DOCKER", "SKILL_DEVOPS"]
+  },
+  {
+    "code": "SKILL_GIT",
+    "canonical_name": "Git",
+    "category": "DEVOPS_CLOUD",
+    "subcategory": "VCS",
+    "description": "Distributed version control system that tracks changes in any set of computer files.",
+    "aliases": ["git", "гит", "github", "gitlab"],
+    "related_skills": ["SKILL_CICD"]
+  },
+  {
+    "code": "SKILL_MICROSERVICES",
+    "canonical_name": "Microservices",
+    "category": "ARCHITECTURE_METHODOLOGY",
+    "subcategory": "PATTERN",
+    "description": "Architectural and organizational approach to software development where software is composed of small independent services.",
+    "aliases": ["microservices", "микросервисы", "microservice architecture", "микросервисная архитектура"],
+    "related_skills": ["SKILL_REST_API", "SKILL_GRPC", "SKILL_DOCKER"]
+  },
+  {
+    "code": "SKILL_REST_API",
+    "canonical_name": "REST API",
+    "category": "ARCHITECTURE_METHODOLOGY",
+    "subcategory": "API",
+    "description": "Architectural style for distributed hypermedia systems using standard HTTP methods.",
+    "aliases": ["rest", "rest api", "restful", "рест", "рест апи"],
+    "related_skills": ["SKILL_GRAPHQL", "SKILL_GRPC"]
+  },
+  {
+    "code": "SKILL_GRPC",
+    "canonical_name": "gRPC",
+    "category": "ARCHITECTURE_METHODOLOGY",
+    "subcategory": "API",
+    "description": "High performance, open source universal RPC framework.",
+    "aliases": ["grpc", "г-рпц", "protobuf", "protocol buffers"],
+    "related_skills": ["SKILL_REST_API", "SKILL_MICROSERVICES"]
+  },
+  {
+    "code": "SKILL_JUNIT",
+    "canonical_name": "JUnit",
+    "category": "TESTING_QA",
+    "subcategory": "UNIT_TESTING",
+    "description": "Unit testing framework for the Java programming language.",
+    "aliases": ["junit", "junit5", "junit4"],
+    "related_skills": ["SKILL_MOCKITO", "SKILL_JAVA"]
+  },
+  {
+    "code": "SKILL_AGILE",
+    "canonical_name": "Agile",
+    "category": "SOFT_SKILLS",
+    "subcategory": "METHODOLOGY",
+    "description": "Iterative approach to project management and software development that helps teams deliver value faster.",
+    "aliases": ["agile", "scrum", "kanban", "скрам", "канбан", "эджайл"],
+    "related_skills": ["SKILL_TEAM_LEADERSHIP"]
+  },
+  {
+    "code": "SKILL_CODE_REVIEW",
+    "canonical_name": "Code Review",
+    "category": "SOFT_SKILLS",
+    "subcategory": "COLLABORATION",
+    "description": "Systematic examination of computer source code intended to find mistakes overlooked in initial development phase.",
+    "aliases": ["code review", "ревью кода", "код ревью"],
+    "related_skills": ["SKILL_GIT"]
+  }
+]
